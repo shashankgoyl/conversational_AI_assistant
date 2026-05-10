@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: shl-recommender
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false   # set this in the Render dashboard as a secret
+    healthCheckPath: /health
+    autoDeploy: true
