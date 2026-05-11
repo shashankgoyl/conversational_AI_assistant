@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 CATALOG_PATH = os.getenv("CATALOG_PATH", "data/shl_catalog.json")
 INDEX_PATH = os.getenv("INDEX_PATH", "data/faiss.index")
 META_PATH = os.getenv("META_PATH", "data/catalog_meta.json")
-EMBED_MODEL = "all-MiniLM-L3-v2"
+EMBED_MODEL = "paraphrase-MiniLM-L3-v2"
 
 
 def _item_to_text(item: Dict) -> str:
