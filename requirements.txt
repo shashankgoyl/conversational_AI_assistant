@@ -4,8 +4,8 @@ langchain
 langchain-groq
 langchain-core
 langchain-community
-faiss-cpu
-sentence-transformers
+scikit-learn
+numpy
 pydantic
 python-dotenv
 httpx
